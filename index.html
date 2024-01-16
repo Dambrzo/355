@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Koulen&family=Merriweather:ital@0;1&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+
+    <!--Media fonts-->
+    <script src="https://kit.fontawesome.com/e740a303fc.js" crossorigin="anonymous"></script>
+    
+    <title>Damian Brzoska</title>
+</head>
+
+<body>
+    <!-- Start of page -->
+    <section class="start" id="start_of_page">
+    <div class="wrapper">
+        <h1 class="introTitle">
+            Hello, my name is
+        </h1>
+        <p class="introName">Damian Brzoska.</p>
+        <p class="introText">an aspiring Software Engineer.</p>
+        <p class="introText2">and this is my website.</p>
+    </div>
+    <div class="backgroundLine"></div>
+    </section>
+
+    <!-- Down Button-->
+    <div class="wrapperButton">
+        <a class="btnScrollToBottom" href="#about_me_link"><i class="fa-solid fa-circle-arrow-down"></i></a>
+    </div>
+    <!-- Header -->
+    <header id= "navBar">
+        <!-- Hamburger Button-->
+        <button class="navToggle" aria-label="toogle navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <!-- Navigation Bar-->
+    <div>
+        <nav class="nav">
+            <ul class="navList">
+                <li class="navItem" id="navStart"><a href="#start_of_page" class="navLink">Home</a></li>
+                <li class="navItem" id="navAbout"><a href="#about_me_link" class="navLink">About Me</a></li>
+                <li class="navItem" id="navProject"><a href="#projects_link" class="navLink">Resources</a></li>
+                <li class="navItem" id="navContact"><a href="#contact_link" class="navLink">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <!-- About Me -->
+    <section class="aboutMe" id="about_me_link">
+    <div class="aboutMeWrapper">
+        <h2 class="aboutMeTitle">About Me</h2>
+                <p class="aboutMeText"> Hello! My name is Damian Brzoska, I am a Computer Science undergrad located in New York City. I am currently interested in an opportunity as a software engineer.
+
+                </p>
+    </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects_link">
+        <h2 class="projectsTitle">Resources</h2>
+    <div class="gridWrapper">
+        <div class="projectsContainer">
+            <p class="projectIcons">
+            <a title="Check this resource out!" href="http://w3schools.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            <p class="projectTitle">W3School</p>
+            <p class="projectText">W3Schools is a popular web developer information website that offers tutorials and references on web development languages.</p>
+            <p class="projectUse"></p>
+        </div>
+        <div class="projectsContainer">
+            <p class="projectIcons">
+            <a title="Check this resource out!" href="https://www.geeksforgeeks.org/web-development/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            <p class="projectTitle">GeeksForGeeks</p>
+            <p class="projectText">GeeksforGeeks is a website that offers comprehensive material on various programming languages, algorithmic techniques, and other computer science fundamentals. </p>
+            <p class="projectUse"></p>
+        </div>
+        <div class="projectsContainer">
+            <p class="projectIcons">
+            <a title="Check this resource out!" href="https://gaia.cs.umass.edu/kurose_ross/index.php"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            <p class="projectTitle">Kurose Ross</p>
+            <p class="projectText">"Computer Networking: A Top-Down Approach" by Kurose and Ross, published by Pearson, is an esteemed textbook in the field of computer networking. It adopts a unique top-down approach, starting with application-layer protocols before delving into lower layers.</p>
+            <p class="projectUse"></p>
+        </div>
+        <div class="projectsContainer">
+            <p class="projectIcons">
+            <a title="Check this resource out!"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            <p class="projectTitle">Example Resource</p>
+            <p class="projectText">This project is an example resource bla bla bla.</p>
+            <p class="projectUse">This project is an example rescourse bla bla bla.</p>
+        </div>
+    </section>
+
+    <!-- Up Button-->
+    <div class="wrapperButtonUp">
+        <a class="scrollUpBtn" href="#start_of_page"><i class="fa-solid fa-circle-arrow-up"></i></a></i>
+    </div>
+        <!-- Media links -->
+        <footer class="footer" id ="contact_link">
+            <ul class="socials">
+                <li class="socialsItem"><a class="socialsLink" href="mailto" id="mailLink"><i class="fa-solid fa-envelope"></i></a></li>
+                <li class="socialsItem"><a class="socialsLink" href="https://www.linkedin.com/in/dambrzoska/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="socialsItem"><a class="socialsLink" href="https://github.com/Dambrzo"><i class="fa-brands fa-github-square"></i></a></li>
+            </ul>
+        </footer>
+</body>
+<script src="index.js"></script>
+</html>

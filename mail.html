@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Koulen&family=Merriweather:ital@0;1&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+
+    <!--Media fonts-->
+    <script src="https://kit.fontawesome.com/e740a303fc.js" crossorigin="anonymous"></script>
+    
+    <title>Damian Brzoska</title>
+</head>
+<body>
+
+<h2>Send e-mail to dambrzoska@gmail.com:</h2>
+
+<form action="mailto:dambrzoska@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
+<p id="message" style="display:none;">Email Sent</p>
+
+<script>
+    function displayMessage() {
+        document.getElementById('message').style.display = 'block';
+        return true; // Continue with the form action
+    }
+</script>
+
+</body>
+</html>
